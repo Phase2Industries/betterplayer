@@ -48,14 +48,7 @@ class _BetterPlayerWithControlsState extends State<BetterPlayerWithControls> {
 
     return Center(
       child: Container(
-        width: MediaQuery.of(context).size.width,
-        child: AspectRatio(
-          // Just mirror the parent container rather than making the container adhere to
-          // the content aspect ratio. This allows for the content to be a
-          // different size than the container which is more common.
-          aspectRatio: _calculateAspectRatio(context),
-          child: _buildPlayerWithControls(betterPlayerController, context),
-        ),
+        child: _buildPlayerWithControls(betterPlayerController, context),
       ),
     );
   }

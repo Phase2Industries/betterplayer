@@ -233,7 +233,7 @@ class _BetterPlayerCupertinoControlsState
                       ? _controlsConfiguration.fullscreenDisableIcon
                       : _controlsConfiguration.fullscreenEnableIcon,
                   color: iconColor,
-                  size: 12.0,
+                  size: 20.0,
                 ),
               ),
             ),
